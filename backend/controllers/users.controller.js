@@ -85,7 +85,7 @@ export const login = async (req,res)=>{
           httpOnly: true,
           secure: true, // required if using HTTPS (which Render does)
           sameSite: 'None', // allows cross-site cookies
-        }).json(user);
+        }).json(User);
 
       });
       })
